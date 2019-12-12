@@ -48,7 +48,7 @@ p {
 }
 
 .print {
-	max-height: 400px;
+	max-height: 600px;
 	border: 1px solid #d52228;
 
 }
@@ -97,7 +97,8 @@ p {
 	width: 100%;
 }
 .print {
-	margin-left: 15%;
+	max-height: 560px;
+	margin-left: 0%;
 }
 
 audio {
