@@ -1,0 +1,114 @@
+body {
+	font-family: 'Inconsolata', monospace;
+
+}
+
+h1 {
+	font-size: 42pt;
+	text-align: center;
+}
+
+h2 {
+	font-size: 36pt;
+	text-align: center;
+}
+
+h3 {
+	font-size: 26pt;
+	text-align: center;
+}
+
+h4 {
+	font-size: 18pt;
+	text-align: center;
+}
+
+p {
+	padding: 4%;
+	margin-left: 25%;
+	margin-right: 25%;
+	text-align: justify;
+}
+.column {
+	float: left;
+	padding: 2%;
+	margin-top: 5%;
+}
+
+.col_1 {
+	width: 29%;
+}
+
+.col_2 {
+	width: 29%;
+}
+
+.col_3 {
+	width: 29%;
+}
+
+.print {
+	max-height: 400px;
+	border: 1px solid #d52228;
+
+}
+.return {
+	padding: 3%;
+}
+
+a:link,
+a:visited {
+	color: #d52228;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color:  #EC8A8E;
+	opacity: 0.5;
+}
+
+@media only screen and (min-device-width : 319px) and (max-device-width : 812px) {
+ h3 {
+ 	font-size: 20pt;
+ 	}
+h2 {
+	font-size: 30pt;
+	}
+h1 {
+	font-size: 40pt;
+}
+
+p {
+	width: 90%;
+	margin: 0 auto;
+	padding: 3%;
+}
+.col_1 {
+	width: 100%;
+
+}
+
+.col_2 {
+	width: 100%;
+}
+
+.col_3 {
+	width: 100%;
+}
+.print {
+	margin-left: 15%;
+}
+
+audio {
+	margin-left: 8%;
+}
+a:hover: {
+	none;
+}
+
+}
+
+
+
+
